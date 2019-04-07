@@ -1,0 +1,27 @@
+
+ <nav class="navbar navbar-default mainNav">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand headerTitle" >Chaitanya's Potpourri</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="headerMenu"><a [routerLink] = "['/home']">Home</a></li>
+            <li class="headerMenu"> | </li>
+            <li class="headerMenu"><a [routerLink] = "['/home']">Blog Posts</a></li>
+            <li class="headerMenu"> | </li>
+            <li class="headerMenu"><a [routerLink] = "['/profile']">Profile</a></li>
+            <li class="headerMenu"> | </li>
+            <li class="headerMenu"><a [routerLink] = "['/home']">Downloads</a></li>
+            <li class="headerSpacer">&nbsp;</li>
+            <li class="headerMenu"><img src="../assets/images/linkedin.png" class="headerIcons" (click)="launchExternalLinks('linkedin')" ></li>
+            <li class="headerMenu"><img src="../assets/images/facebook.png" class="headerIcons" (click)="launchExternalLinks('facebook')" ></li>
+            <li class="headerMenu"><img src="../assets/images/instagram.png" class="headerIcons" (click)="launchExternalLinks('instagram')" ></li>
+        </ul>
+    </div><!-- /.container-fluid -->
+
+</nav>
+
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>

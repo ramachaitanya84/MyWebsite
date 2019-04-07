@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../src/shared/application.css";
+@import "../src/shared/profile.css";
+
+.mainBodyHomeStyle{
+    background-image: url('./assets/images/bg1_pencils.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #198BCC;
+}
+
+.mainNav{
+    background-color: #198BCC;
+    color: #ffffff;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+
+.headerTitle{
+    font-size: 24px;
+}
+
+.headerMenu{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.headerMenu a{
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+.headerMenu a:hover{
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+.headerMenu a:active{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.headerSpacer{
+    margin-left: 40px;
+}
+
+.headerIcons{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#footerNav{
+    position: fixed;
+    bottom: 0px;
+    padding-left: 30px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    background-color: #198BCC;
+    width: 100%;
+    z-index: 999;
+}

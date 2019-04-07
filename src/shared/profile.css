@@ -1,0 +1,28 @@
+.displayLiProfile { 
+    margin-top:10px;
+}
+
+.leftPane{
+    margin-left: -10px; 
+    align-items: center;
+    
+}
+.leftPageItems{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    color: #006494;
+}
+
+.profileLeftIcons{
+    height: 70px;
+    width: 70px;
+   
+}
+
+.verticalLine{
+    width:5px; 
+    background-image:linear-gradient(to bottom, #E8F1F2, #13293D, #E8F1F2);
+}

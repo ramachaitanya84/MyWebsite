@@ -1,0 +1,30 @@
+
+
+.mainJumbo{
+    background-color:   transparent;
+    display:            flex;
+    justify-content:    center;
+    padding-top:        25px;
+}
+
+.mainJumboCenter{
+    color:              #006494;
+    text-align:         center;
+    display:            inline-block;
+}
+
+.homeIconsDiv{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+.homeIcons{
+    width:              100px;
+}
+
+#homeContainer {
+    text-align: center;
+    vertical-align: top;
+    margin-top: -40px;
+    color: #006494;
+}

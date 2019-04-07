@@ -22,6 +22,10 @@
     font-size: 24px;
 }
 
+.headerUL{
+    flex-direction: row;
+}
+
 .headerMenu{
     margin-left: 10px;
     margin-right: 10px;

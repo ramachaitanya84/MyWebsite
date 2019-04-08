@@ -1,3 +1,5 @@
 {
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "appService.defaultWebAppToDeploy": "/subscriptions/e9317037-37c3-4d56-b04d-b377f312f21b/resourceGroups/My_Websites/providers/Microsoft.Web/sites/rchaitanya",
+    "appService.deploySubpath": ""
 }

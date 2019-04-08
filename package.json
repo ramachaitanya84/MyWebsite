@@ -3,7 +3,6 @@
     "version": "0.0.0",
     "scripts": {
       "ng": "ng",
-      "start": "ng serve -o",
       "build": "ng build",
       "test": "ng test",
       "lint": "ng lint",
@@ -27,7 +26,10 @@
       "ngx-captcha": "^6.4.0",
       "rxjs": "~6.3.3",
       "tslib": "^1.9.0",
-      "zone.js": "~0.8.26"
+      "zone.js": "~0.8.26",
+      "@angular/cli": "~7.3.6",
+      "@angular/compiler-cli": "~7.2.0",
+      "typescript": "~3.2.2"
     },
     "devDependencies": {
       "@angular-devkit/build-angular": "~0.13.0",

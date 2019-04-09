@@ -2,3 +2,47 @@
     text-decoration-line: underline;
 }
 
+.displayLiProfile { 
+    margin-top:10px;
+}
+
+.leftPane{
+    margin-left: -10px; 
+    align-items: center;
+    /*background-color: #DADADA;    */
+}
+
+.leftPageItems{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    color: #006494;
+}
+
+.profileLeftIcons{
+    height: 70px;
+    width: 70px;
+}
+
+.verticalLine{
+    width: 5px; 
+    background-image: linear-gradient(to bottom, #E8F1F2, #13293D, #E8F1F2);
+}
+
+.profileBody{
+    background-image: url('../../assets/images/bg2_desk.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    position: absolute;
+    margin-left: -14px;
+}
+
+.rowDiV{
+    height: 100%;
+}

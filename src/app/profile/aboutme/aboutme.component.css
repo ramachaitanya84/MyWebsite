@@ -1,0 +1,113 @@
+nav h2{
+    color: #198BCC;
+    font-weight: 400;
+}
+nav{
+    padding: 10px;
+    width:100%;
+}
+.titleUnderline{
+    height: 2px;
+    color: #006494;
+    background-color: #006494;
+}
+
+.displayPic{
+    width: 220px;
+}
+
+.profileName{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 350;
+    color: dimgray;
+}
+
+.profileDesc{
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.profileDesc h3{
+    font-size: 22px;
+    font-weight: 350;
+}
+.profileDesc span{
+    font-size: 14px;
+    font-weight: 350;
+    color: #006494;
+    padding-left: 15px;
+}
+
+.profileDesc a{
+    color: #006494;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+
+.profileIcon{
+    width: 20px;
+}
+
+.leftPaneDisplay{
+    width: 270px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.backgroundDiv{
+    z-index: -1;
+    background-image: url('../../../assets/images/bg2_desk.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    margin-left: -14px;
+    padding-left: 10px;
+    position: fixed;
+}
+
+#map_wrapper {
+    height: 400px;
+}
+
+.googleMapsDisplay{
+    height: 200px;
+    width: 320px;
+    text-align: center;
+    border: 0.5px solid gray;
+}
+
+.rightPaneDisplay{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.mapsContainer{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.mapsContainer img{
+    width:20px;
+    height: 20px;
+}
+
+.mapsContainer span{
+    font-size: 10px;
+    text-align: center;
+}
+
+.profilebottomContainer{
+    padding-top: 20px;
+}

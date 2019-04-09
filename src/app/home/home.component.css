@@ -1,0 +1,11 @@
+
+.homeBody{
+    background-image: url('../../assets/images/bg1_pencils.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    position: absolute;
+}

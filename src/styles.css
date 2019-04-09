@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 @import "../src/shared/application.css";
-@import "../src/shared/profile.css";
+
 
 .mainBodyHomeStyle{
-    background-image: url('./assets/images/bg1_pencils.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #198BCC;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
 }
 
 .mainNav{
